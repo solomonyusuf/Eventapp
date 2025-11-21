@@ -38,6 +38,9 @@
 											<p id="time-up"></p>
 										 </div>
 										 </div>
+                                         <div class="header-btn second-header-btn py-2">
+                                    <a href="{{ route('register') }}" class="btn"><i class="far fa-ticket-alt"></i> Register Now </a>
+                                </div>
                                     </div>
                                 </div>
                             </div>
@@ -47,7 +50,7 @@
                
             </section>
             <!-- slider-area-end -->
-             <!-- about-area -->
+             {{-- <!-- about-area -->
             <section id="about" class="about-area about-p pt-120 pb-120 p-relative">
                 <div class="container">
                     <div class="row align-items-center">                       
@@ -1077,5 +1080,5 @@
                     </div>
                 </div>
             </section>
-            <!-- blog-area-end -->
+            <!-- blog-area-end --> --}}
 </div>

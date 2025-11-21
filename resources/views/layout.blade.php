@@ -73,9 +73,9 @@
                                 </div> --}}
                             </div>
                             <div class="col-xl-3 text-right d-none d-xl-block">
-                                <div class="header-btn second-header-btn py-2">
+                                {{-- <div class="header-btn second-header-btn py-2">
                                     <a href="{{ route('register') }}" class="btn"><i class="far fa-ticket-alt"></i> Register Here </a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
         </main>
         <!-- main-area-end -->
         <!-- footer -->
-        <footer class="footer-bg footer-p" style="background-image:url(img/footer_bg_img.jpg);background-size: cover;">
+        {{-- <footer class="footer-bg footer-p" style="background-image:url(img/footer_bg_img.jpg);background-size: cover;">
           
             <div class="footer-top">
                 <div class="container">
@@ -122,12 +122,8 @@
                             <div class="copyright-text text-center">
 								<div class="footer-link">
                                     <ul>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Eventime</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                        <li><a href="#">Tickets</a></li>
-                                        <li><a href="#">Venue</a></li>
+                                        <li><a href="{{ route('home') }}">Home</a></li>
+                                        <li><a href="{{ route('register') }}">Register</a></li>
                                     </ul>
                                 </div>                              
                             </div>
@@ -135,7 +131,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer> --}}
         <!-- footer-end -->
 
 
